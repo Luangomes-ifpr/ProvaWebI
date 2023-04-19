@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/*Comentários no CSS é com esse "/*" */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+/* Lista desordenada*/
+ul {
+    list-style: none;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    background:no-repeat center/cover url("assets/maxresdefault.jpg");
+    height: 400px;
+    width: 1830px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    margin: auto 5px;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav p {
+    font-weight: bold;
+    margin-left: 1380px;
+}
+header nav img {
+    height: 50px;
+}
+
+.header-content {
+    max-width: 450px;
+    margin: 450px auto;
+    text-align: center;
+}
+
+.header-content h1 {
+    margin-bottom: 3px;
+    font-size: 3rem;
+}
+
+.home .home-title {
+    width: 100%;
+    text-align: center;
+    margin: 25px 0;
+    font-size: 3rem;
+}
+/*adicionamos o fundo colorido*/
+.home {
+    background: #caaf7d;
+    padding: 15px;
+}
+
+.home .home-card {
+    display: flex;
+    margin: auto;
+    max-width: 1500px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.home .card-image {
+    width: 350px;
+    height: 200px;
+    border-radius: 24px 0 0 0;
+
+}
+.home .card {
+    width: 350px;
+    height: 450px;
+    background: white;
+    border-radius: 24px 0;
+    margin: 55px;
+    position: relative;
+}
+
+.home .card-content {
+    padding: 0 15px;
+
+}
+
+.home .card-content ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.home .card-content ul li {
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    margin: 3px 0;
+    color: grey;
+    font-weight: bold;
+}
+.home .card-content p {
+    font-size: .8rem;
+    display: flex;
+    align-items: justify;
+    margin: 20px 0;
+    color: grey;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.home .card-content li svg {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+.home .card-content h1 {
+    font-size: 1rem;
+}
+
+.home .card .card-tag-top {
+    position: absolute;
+    right: 0;
+    top: 15px;
+    background: #f19b39;
+    border-radius: 8px 0 0 8px;
+    padding: 5px 10px;
+}
+
+.home .card .card-tag-bottom {
+    position: absolute;
+    left: 0;
+    top: 160px;
+    background: #1d61dd;
+    border-radius: 8px 0 0 8px;
+    padding: 5px 10px;
+}
+
+.home .card .card-tag p {
+    margin: 0 ;
+    font-size: 0,.8rem;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.servicos .servicos-title {
+    margin: 35px 0;
+    text-align: center;
+    font-size: 80px;
+}
+.servicos {
+    padding: 15px;
+    background: rgb(228, 195, 163);
+    text-align: justify;
+}
+
+.servicos h2 {
+    font-size: 20px;
+}
+
+.contatos {
+    padding: 20px;
+    font-size: 1rem;
+    background: rgb(155, 147, 147);
+    text-align: center;
+}
+
+.contatos .email svg {
+    color: white;
+    vertical-align: middle; /*alinhou o svg com o texto*/
+    padding: 10px;
+}
+
+.contatos .instagram svg {
+    color:rgb(175, 14, 14);
+    vertical-align:middle;
+    padding: 10px;
+}
+
+.contatos .facebook svg {
+    color: white;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+.contatos .twitter svg {
+    color: blue;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+.contatos .telefone svg {
+    color: black;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+.contatos .desenvolvedor {
+    padding: 10px;
+}
+
+.contatos .email svg:hover{
+    stroke: #1d61dd;
+    transform: scale(1.1);
+}
+.contatos .instagram svg:hover{
+    stroke: #ff0000;
+    transform: scale(1.1);
+}
+
+.contatos .facebook svg:hover{
+    stroke: #1d61dd;
+    transform: scale(1.1);
+}
+
+.contatos .twitter svg:hover{
+    stroke: #1965f1;
+    transform: scale(1.1);
+}
